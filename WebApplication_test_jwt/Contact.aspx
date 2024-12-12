@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication_test_jwt.Contact" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication_test_jwt.Contact" Async="true"  %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
@@ -16,4 +16,9 @@
             <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
         </address>
     </main>
+    <div>
+
+        <asp:Label ID="Label_api" runat="server" Text="Label"></asp:Label>
+
+    </div>
 </asp:Content>
