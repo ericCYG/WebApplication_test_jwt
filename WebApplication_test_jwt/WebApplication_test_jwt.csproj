@@ -230,6 +230,7 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\CallProtectedApi.cs" />
     <Compile Include="App_Data\TokenGenerator.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
